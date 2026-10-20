@@ -53,3 +53,67 @@ body {
 .hero nav a:hover {
   background: #3b709f;
 }
+
+/* About Me */
+.panel {
+  background: #ffffff;
+  border-radius: 18px;
+  margin-top: 28px;
+  padding: 32px 32px 40px;
+  box-shadow: 0 12px 32px rgba(24, 48, 77, 0.06);
+}
+
+.panel h2 {
+  color: #0a3f76;
+  font-size: 26px;
+  line-height: 1.4;
+  border-bottom: 2px solid #e2eefb;
+  margin: 0 0 28px;
+  padding: 0 0 12px;
+}
+
+#about {
+  padding-bottom: 13px;
+}
+.about-content {
+  padding: 4px 12px 0;
+}
+
+.profile-photo {
+  float: left;
+  width: 155px;
+  height: 155px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center 41%;
+  border: 5px solid #eef7ff;
+  margin: 0 30px 0 0;
+  box-shadow: 0 8px 22px rgba(15, 45, 75, 0.15);
+}
+
+.about-content p {
+  margin: 9px 0 17px;
+}
+.about-content strong,
+.inline-link {
+  color: #0064b6;
+}
+.inline-link {
+  font-weight: bold;
+}
+
+.primary-link {
+  display: inline-block;
+  color: white;
+  background: #0868b3;
+  text-decoration: none;
+  padding: 12px 21px;
+  border-radius: 7px;
+  font-size: 13px;
+}
+.primary-link:hover {
+  background: #07538f;
+}
+.clear {
+  clear: both;
+}
