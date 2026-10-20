@@ -117,3 +117,37 @@ body {
 .clear {
   clear: both;
 }
+
+/* My Skills */
+.section-intro {
+  margin: 0 0 27px;
+}
+.skill-list {
+  padding: 0 9px;
+}
+
+.skill {
+  float: left;
+  width: 22.6%;
+  min-height: 151px;
+  margin-right: 2.5%;
+  border: 1px solid #dbeafa;
+  border-radius: 13px;
+  background: #f8fbff;
+  padding: 21px 21px;
+  box-shadow: 0 8px 18px rgba(30, 70, 120, 0.06);
+}
+
+.last-skill {
+  margin-right: 0;
+}
+.skill h3 {
+  color: #0066b6;
+  font-size: 17px;
+  margin: 0 0 17px;
+}
+.skill p {
+  font-size: 14px;
+  margin: 0;
+  line-height: 1.45;
+}
